@@ -1,0 +1,14 @@
+﻿{
+  "name": "universal-token-limiter",
+  "version": "0.1.0",
+  "description": "A simple, shareable proxy that enforces a universal 50k token context limit for any LLM API.",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
