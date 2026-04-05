@@ -42,9 +42,6 @@ Examples:
 - `TRUNCATE` (default false): If true, the limiter trims content to fit instead of rejecting.
 - `UPSTREAM_URL` (optional): Default provider if you do not send `x-upstream-url`.
 
-## Sharing it with everyone
-You can push this folder to GitHub and share it publicly. Anyone can run the limiter locally and point Claude or OpenAI-compatible apps to it.
-
 ## Codex skill (optional)
 This repo includes a Codex skill at:
 `skills/universal-token-limiter/SKILL.md`
