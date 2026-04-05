@@ -9,20 +9,13 @@ A simple, shareable proxy that enforces a universal 50,000-token context window 
 
 ## Quick start (non-technical)
 1. Install Node.js (LTS).
-2. Open a terminal in this folder and run:
+2. Open PowerShell in this folder and run the one-click setup:
 
-```bash
-npm install
+```powershell
+.\setup.ps1
 ```
 
-3. Copy `.env.example` to `.env` and set your upstream provider URL.
-
-Example:
-```
-UPSTREAM_URL=https://api.anthropic.com
-```
-
-4. Start the limiter:
+3. Start the limiter:
 
 ```bash
 npm start
